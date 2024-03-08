@@ -2,9 +2,10 @@
 根据b站up主[「码农高天」](https://space.bilibili.com/245645656)的Git教学视频进行的总结，帮助同学们速成Git基本操作，一切解释权归视频作者[gaogaotiantian](https://github.com/gaogaotiantian)所有，如有侵权请联系我们以删除。
 建议观看原视频，本仓库仅用作速查复习。
 
-分为两个部分：
+分为三个部分：
 - [【十分钟学会正确的github工作流，和开源作者们使用同一套流程】](https://www.bilibili.com/video/BV19e4y1q7JJ)
 - [【十分钟学会常用git撤销操作，全面掌握git的时光机】](https://www.bilibili.com/video/BV1ne4y1S7S9/?share_source=copy_web&vd_source=26a2b981a461580e599a2b8bf7ecd932)
+- [【Angular提交信息规范】](https://zjdoc-gitguide.readthedocs.io/zh-cn/latest/message/angular-commit.html)
 
 # Git & GitHub 工作流
 
@@ -170,6 +171,32 @@ git revert HEAD
 
 对于公有分支，绝对不要使用`-f`，个人分支的话可以让commit更加简洁来使用。
 
+# Angular提交规范
 
+目前最受开发人员肯定的规范是前端框架Angular提出的[Angular提交信息规范](https://github.com/angular/angular/blob/22b96b9/CONTRIBUTING.md#-commit-message-guidelines)
+
+这里只介绍使用频率最高的提交类型的介绍，其它详情请进入官方文档学习。
+
+## 提交类型
+
+提交类型指定为下面其中一个：
+
+`build`：对构建系统或者外部依赖项进行了修改
+
+`ci`：对CI配置文件或脚本进行了修改
+
+`docs`：对文档进行了修改
+
+`feat`：增加新的特征
+
+`fix`：修复bug
+
+`pref`：提高性能的代码更改
+
+`refactor`：既不是修复bug也不是添加特征的代码重构
+
+`style`：不影响代码含义的修改，比如空格、格式化、缺失的分号等
+
+`test`：增加确实的测试或者矫正已存在的测试
 
 
