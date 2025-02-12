@@ -1,7 +1,6 @@
 # swift-git
 根据b站up主[「码农高天」](https://space.bilibili.com/245645656)的Git教学视频进行的总结，帮助同学们速成Git基本操作，一切解释权归视频作者[gaogaotiantian](https://github.com/gaogaotiantian)所有，如有侵权请联系我们以删除。
 建议观看原视频，本仓库仅用作速查复习。
-![image](https://github.com/user-attachments/assets/4e80d7ed-2264-42f3-a49b-09b0071b0072)
 
 分为三个部分：
 - [【十分钟学会正确的github工作流，和开源作者们使用同一套流程】](https://www.bilibili.com/video/BV19e4y1q7JJ)
